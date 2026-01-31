@@ -1007,7 +1007,7 @@ Then, `BlockLayout` copies it from the parent:
 class BlockLayout:
     def __init__(self, node, parent, previous, frame):
         # ...
-        self.zoom = ProtectedField()
+        self.width = ProtectedField()
         # ...
 
     def layout(self):
